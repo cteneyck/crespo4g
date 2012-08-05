@@ -50,11 +50,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
        ro.wimax.interface=uwbr0
 
-# Default.prop settings for override 
-PRODUCT_PROPERTY_OVERRIDES += \
-       ro.secure=0 \
-       ro.debuggable=1
-
 # Hardware-specific features
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml \
